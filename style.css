@@ -1,0 +1,242 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    background-color: #252526; /* Cor de fundo escura do VS Code */
+    color: #d4d4d4; /* Cor do texto padrão do VS Code */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.item {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #555;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nome {
+    font-weight: bold;
+}
+
+.edit-icon, .settings-icon {
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.game-card {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.game-card img {
+    width: 100%;
+    display: block;
+}
+
+.discount {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.interaction-icons {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+.live-section {
+    background-color: #444;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.live-item {
+    background-color: #555;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 80px;
+}
+
+.live-item > div:first-child {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+
+.chat-section {
+    background-color: #333;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.chat-header .profile .level {
+    background-color: gold;
+    color: black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+
+.chat-participants {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    overflow-x: auto;
+    padding-bottom: 5px;
+}
+
+.chat-participants .participant {
+    display: flex;
+    align-items: center;
+    background-color: #444;
+    border-radius: 5px;
+    padding: 8px;
+    white-space: nowrap;
+}
+
+.chat-participants .participant .profile .level {
+    background-color: gold;
+    color: black;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    margin-left: 3px;
+}
+
+.chat-participants .participant .interaction-icons {
+    margin-left: 10px;
+}
+
+.chat-window {
+    background-color: #444;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-window .chat-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #ccc;
+}
+
+.chat-window .chat-info .profile .level {
+    background-color: gold;
+    color: black;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7em;
+    margin-left: 3px;
+}
+
+.chat-window .chat-info .interaction-icons {
+    margin-left: auto;
+}
+
+.chat-window .message {
+    background-color: #555;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.chat-window .reel-container {
+    background-color: #555;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.chat-window .reel-icon {
+    font-size: 2em;
+}
+
+.chat-input {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 10px;
+    background-color: #444;
+    border-radius: 5px;
+}
+
+.chat-input .input-actions {
+    flex-grow: 1;
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.chat-input .camera-icon, .chat-input .microphone-icon {
+    font-size: 1.5em;
+    color: #ccc;
+    cursor: pointer;
+}
