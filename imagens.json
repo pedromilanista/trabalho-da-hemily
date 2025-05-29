@@ -1,0 +1,14 @@
+{
+  "minha_foto_1.jpg": {
+    "repositorio": "retratos",
+    "identificacao": "viagem_familia_2023"
+  },
+  "imagem_produto_abc.png": {
+    "repositorio": "produtos",
+    "identificacao": "produto_abc_detalhe"
+  },
+  "banner_oferta.gif": {
+    "repositorio": "marketing",
+    "identificacao": "promocao_primavera"
+  }
+}
