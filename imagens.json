@@ -41,6 +41,69 @@
       "genero": "RPG, Mundo Aberto",
       "descricao": "Um RPG de ação e aventura em mundo aberto ambientado na megalópole de Night City.",
       "preco": 39.99
+    },
+    {
+      "id": "elden-ring",
+      "titulo": "Elden Ring",
+      "capa": "imagens/elden-ring.jpg",
+      "genero": "RPG, Ação, Mundo Aberto",
+      "descricao": "Um novo RPG de ação e fantasia. Erga-te, Maculado, e seja guiado pela graça para brandir o poder do Anel Prístino e ascender como Lorde Prístino nas Terras Intermédias.",
+      "preco": 59.99,
+      "avaliacao": 9.5
+    },
+    {
+      "id": "witcher3",
+      "titulo": "The Witcher 3: Wild Hunt",
+      "capa": "imagens/witcher3.jpg",
+      "genero": "RPG, Ação, Mundo Aberto",
+      "descricao": "Um RPG de mundo aberto baseado em histórias ambientado em um universo de fantasia visualmente deslumbrante e cheio de escolhas significativas e consequências impactantes.",
+      "preco": 39.99,
+      "desconto": 30,
+      "avaliacao": 9.8
+    },
+    {
+      "id": "spiderman-miles",
+      "titulo": "Marvel's Spider-Man: Miles Morales",
+      "capa": "imagens/spiderman-miles.jpg",
+      "genero": "Ação, Aventura, Super-Herói",
+      "descricao": "Vivencie a ascensão de Miles Morales enquanto o novo Spider-Man domina seus incríveis e explosivos novos poderes para se tornar o seu próprio Homem-Aranha.",
+      "preco": 49.99
+    },
+    {
+      "id": "horizon-fw",
+      "titulo": "Horizon Forbidden West",
+      "capa": "imagens/horizon-fw.jpg",
+      "genero": "Ação, RPG, Mundo Aberto",
+      "descricao": "Junte-se a Aloy enquanto ela se aventura no Oeste Proibido, uma fronteira majestosa, mas perigosa que esconde novas ameaças misteriosas.",
+      "preco": 69.99,
+      "avaliacao": 9.2
+    },
+    {
+      "id": "ghost-tsushima",
+      "titulo": "Ghost of Tsushima",
+      "capa": "imagens/ghost-tsushima.jpg",
+      "genero": "Ação, Aventura, Mundo Aberto",
+      "descricao": "No final do século XIII, o Império Mongol destruiu nações inteiras em sua campanha para conquistar o Oriente. A ilha de Tsushima é tudo o que resta entre o Japão continental e uma enorme frota de invasão liderada por um general astuto e cruel.",
+      "preco": 59.99
+    },
+    {
+      "id": "stardew-valley",
+      "titulo": "Stardew Valley",
+      "capa": "imagens/stardew-valley.jpg",
+      "genero": "Simulação, RPG",
+      "descricao": "Você herdou a antiga fazenda de seu avô em Stardew Valley. Armado com ferramentas de segunda mão e algumas moedas, você partirá para iniciar sua nova vida?",
+      "preco": 14.99,
+      "avaliacao": 9.7
+    },
+    {
+      "id": "hades",
+      "titulo": "Hades",
+      "capa": "imagens/hades.jpg",
+      "genero": "Ação, Roguelike",
+      "descricao": "Desafie o deus dos mortos enquanto você brande os poderes míticos do Olimpo para escapar do submundo.",
+      "preco": 24.99,
+      "destaque": "indie",
+      "avaliacao": 9.6
     }
   ]
 }
