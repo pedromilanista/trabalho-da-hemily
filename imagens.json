@@ -1,14 +1,46 @@
 {
-  "minha_foto_1.jpg": {
-    "repositorio": "retratos",
-    "identificacao": "viagem_familia_2023"
-  },
-  "imagem_produto_abc.png": {
-    "repositorio": "produtos",
-    "identificacao": "produto_abc_detalhe"
-  },
-  "banner_oferta.gif": {
-    "repositorio": "marketing",
-    "identificacao": "promocao_primavera"
-  }
+  "jogos": [
+    {
+      "id": "ac-shadows",
+      "titulo": "Assassin's Creed Shadows",
+      "capa": "imagens/ac-shadows.jpg",
+      "genero": "Ação, Aventura",
+      "descricao": "Ambientado no Japão feudal, vivencie a história de dois protagonistas distintos.",
+      "preco": 59.99
+    },
+    {
+      "id": "baldurs-gate3",
+      "titulo": "Baldur's Gate 3",
+      "capa": "imagens/baldurs-gate3.jpg",
+      "genero": "RPG",
+      "descricao": "Reúna seu grupo e retorne aos Forgotten Realms em uma história de companheirismo e traição.",
+      "preco": 49.99,
+      "destaque": "final-patch"
+    },
+    {
+      "id": "cod-mw3",
+      "titulo": "Call of Duty: Modern Warfare III",
+      "capa": "imagens/cod-mw3.jpg",
+      "genero": "FPS",
+      "descricao": "A sequência direta do recordista Modern Warfare II.",
+      "preco": 69.99
+    },
+    {
+      "id": "rdr2",
+      "titulo": "Red Dead Redemption 2",
+      "capa": "imagens/rdr2.jpg",
+      "genero": "Ação, Aventura, Mundo Aberto",
+      "descricao": "Uma história épica sobre a honra e a lealdade na aurora dos tempos modernos.",
+      "preco": 29.99,
+      "desconto": 50
+    },
+    {
+      "id": "cyberpunk2077",
+      "titulo": "Cyberpunk 2077",
+      "capa": "imagens/cyberpunk2077.jpg",
+      "genero": "RPG, Mundo Aberto",
+      "descricao": "Um RPG de ação e aventura em mundo aberto ambientado na megalópole de Night City.",
+      "preco": 39.99
+    }
+  ]
 }
