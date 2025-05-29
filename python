@@ -1,0 +1,63 @@
+import os
+import shutil
+import json  # Se suas informações estiverem em um arquivo JSON
+
+# 1. Definir a pasta raiz onde as imagens estão atualmente
+pasta_raiz_origem = "/caminho/para/sua/pasta/de/imagens/originais"  # Substitua pelo caminho real
+
+# 2. Definir a pasta raiz de destino onde as imagens serão organizadas
+pasta_raiz_destino = "/caminho/para/sua/pasta/de/imagens/organizadas"  # Substitua pelo caminho real
+
+# 3. Simulação da sua estrutura de dados com informações de repositório e identificação
+#    Você precisará adaptar isso para ler suas informações reais.
+
+# Exemplo usando um dicionário Python:
+info_imagens = {
+    "imagem1.jpg": {"repositorio": "repositorio_A", "identificacao": "produto_123"},
+    "foto_002.png": {"repositorio": "repositorio_B", "identificacao": "evento_anual_2024"},
+    "img3.jpeg": {"repositorio": "repositorio_A", "identificacao": "promocao_verao"},
+    "arquivo4.gif": {"repositorio": "repositorio_C", "identificacao": "banner_principal"},
+    # Adicione mais informações conforme necessário
+}
+
+# Exemplo se suas informações estiverem em um arquivo JSON:
+# with open("informacoes_imagens.json", "r") as f:
+#     info_imagens = json.load(f)
+
+def organizar_imagens(pasta_origem, pasta_destino, info):
+    """
+    Organiza as imagens em pastas de destino com base nas informações fornecidas.
+
+    Args:
+        pasta_origem (str): Caminho para a pasta raiz com as imagens originais.
+        pasta_destino (str): Caminho para a pasta raiz onde as imagens serão organizadas.
+        info (dict): Dicionário onde as chaves são nomes de arquivos e os valores
+                     são dicionários contendo 'repositorio' e 'identificacao'.
+    """
+    for nome_arquivo_original, detalhes in info.items():
+        repositorio = detalhes.get("repositorio")
+        identificacao = detalhes.get("identificacao")
+
+        if repositorio and identificacao and os.path.exists(os.path.join(pasta_origem, nome_arquivo_original)):
+            # Criar a pasta de destino do repositório se não existir
+            pasta_destino_repositorio = os.path.join(pasta_destino, repositorio)
+            os.makedirs(pasta_destino_repositorio, exist_ok=True)
+
+            # Criar o novo nome do arquivo com a identificação
+            _, extensao = os.path.splitext(nome_arquivo_original)
+            novo_nome_arquivo = f"{identificacao}{extensao}"
+            caminho_destino_completo = os.path.join(pasta_destino_repositorio, novo_nome_arquivo)
+            caminho_origem_completo = os.path.join(pasta_origem, nome_arquivo_original)
+
+            try:
+                # Copiar a imagem para o novo local
+                shutil.copy2(caminho_origem_completo, caminho_destino_completo)
+                print(f"Imagem '{nome_arquivo_original}' copiada para '{caminho_destino_completo}'")
+            except Exception as e:
+                print(f"Erro ao copiar '{nome_arquivo_original}': {e}")
+        else:
+            print(f"Informações incompletas ou arquivo não encontrado para '{nome_arquivo_original}'.")
+
+if __name__ == "__main__":
+    organizar_imagens(pasta_raiz_origem, pasta_raiz_destino, info_imagens)
+    print("Processo de organização de imagens concluído.")
