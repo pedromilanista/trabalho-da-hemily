@@ -6,7 +6,7 @@
       "capa": "imagens/ac-shadows.jpg",
       "genero": "Ação, Aventura",
       "descricao": "Ambientado no Japão feudal, vivencie a história de dois protagonistas distintos.",
-      "preco": 59.99
+      "preco": 341.91
     },
     {
       "id": "baldurs-gate3",
@@ -14,7 +14,7 @@
       "capa": "imagens/baldurs-gate3.jpg",
       "genero": "RPG",
       "descricao": "Reúna seu grupo e retorne aos Forgotten Realms em uma história de companheirismo e traição.",
-      "preco": 49.99,
+      "preco": 299.90,
       "destaque": "final-patch"
     },
     {
@@ -23,7 +23,7 @@
       "capa": "imagens/cod-mw3.jpg",
       "genero": "FPS",
       "descricao": "A sequência direta do recordista Modern Warfare II.",
-      "preco": 69.99
+      "preco": 214.90
     },
     {
       "id": "rdr2",
@@ -31,8 +31,8 @@
       "capa": "imagens/rdr2.jpg",
       "genero": "Ação, Aventura, Mundo Aberto",
       "descricao": "Uma história épica sobre a honra e a lealdade na aurora dos tempos modernos.",
-      "preco": 29.99,
-      "desconto": 50
+      "preco": 199.00,
+      "desconto": 30
     },
     {
       "id": "cyberpunk2077",
@@ -40,7 +40,7 @@
       "capa": "imagens/cyberpunk2077.jpg",
       "genero": "RPG, Mundo Aberto",
       "descricao": "Um RPG de ação e aventura em mundo aberto ambientado na megalópole de Night City.",
-      "preco": 39.99
+      "preco": 150.00
     },
     {
       "id": "elden-ring",
@@ -67,7 +67,7 @@
       "capa": "imagens/spiderman-miles.jpg",
       "genero": "Ação, Aventura, Super-Herói",
       "descricao": "Vivencie a ascensão de Miles Morales enquanto o novo Spider-Man domina seus incríveis e explosivos novos poderes para se tornar o seu próprio Homem-Aranha.",
-      "preco": 49.99
+      "preco": 98.80
     },
     {
       "id": "horizon-fw",
@@ -75,7 +75,7 @@
       "capa": "imagens/horizon-fw.jpg",
       "genero": "Ação, RPG, Mundo Aberto",
       "descricao": "Junte-se a Aloy enquanto ela se aventura no Oeste Proibido, uma fronteira majestosa, mas perigosa que esconde novas ameaças misteriosas.",
-      "preco": 69.99,
+      "preco": 199.50,
       "avaliacao": 9.2
     },
     {
